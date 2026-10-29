@@ -1,0 +1,4 @@
+# Ignore local management and control scripts
+manage_remote_status.ps1
+*.local.json
+*.secret

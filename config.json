@@ -1,0 +1,17 @@
+{
+  "kill_switch": false,
+  "kill_title": "تنبيه من إدارة التطبيق",
+  "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
+  "announcement": {
+    "active": false,
+    "id": "ann-v2-0-0",
+    "title": "إشعار رسمي",
+    "message": "مرحباً بكم في الإصدار الجديد من Anime HOS!",
+    "action_url": "",
+    "action_label": "حسناً"
+  },
+  "latest_version": "2.0.0",
+  "force_update": false,
+  "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
+  "release_notes": "إصدار Anime HOS v2.0.0: تحسينات شاملة للأداء، مشغل فيديو احترافي متقدم، دعم ملء الشاشة، رافع صوت، ومزامنة سحابية فائقة السرعة."
+}
