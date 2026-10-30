@@ -20,8 +20,8 @@
     "from_version": "1.0.0",
     "to_version": "1.0.1",
     "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-patch.zip",
-    "sha256": "B2CB59E9CA1226D616D46DA1A79C61302D14A6E98BD4D0EE9E3517CE7D066B54",
-    "size_bytes": 3357849
+    "sha256": "DBB57FAE6204A5C049DB909789494E8B684A938B63FC6873EB6C431250FBAD87",
+    "size_bytes": 3404306
   },
   "release_notes": "إصدار hosselfishnet v1.0.1:\n- إصلاح شفافية النافذة الخلفية بالكامل.\n- حل مشكلة فويس ديسكورد والمحافظة على استقرار الصوت.\n- تحسين اختيار كارت الشبكة الفيزيائي تلقائياً واستبعاد شبكات VPN الوهمية.\n- دعم تنزيل وتثبيت الباتشات التراكمية تلقائياً."
 }
