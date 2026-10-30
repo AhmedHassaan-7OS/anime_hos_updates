@@ -42,17 +42,17 @@
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
       "kill_message": "تطبيق hosselfishnet تحت التحديث حالياً.",
-      "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_setup.exe",
-      "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_portable.zip",
+      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
       "patch": {
-        "available": false,
-        "from_version": "",
-        "to_version": "",
-        "download_url": "",
-        "sha256": "",
-        "size_bytes": 0
+        "available": true,
+        "from_version": "0.9.0",
+        "to_version": "1.0.0",
+        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-patch.zip",
+        "sha256": "B2CB59E9CA1226D616D46DA1A79C61302D14A6E98BD4D0EE9E3517CE7D066B54",
+        "size_bytes": 3357849
       },
-      "release_notes": "الإصدار الأول من تطبيق hosselfishnet لإدارة وتوزيع سرعات الشبكة المحلية ونظام حظر الأجهزة المتصلة."
+      "release_notes": "إصدار hosselfishnet v1.0.0: تصميم Fluent Design عصري لويندوز 11، محرك رست فائق السرعة، عزل وحصانة تامة لبرنامج ديسكورد والمحادثات الصوتية (Discord Voice Bypass)، صفحة إعدادات متكاملة، وشخصيات تفاعلية متحركة."
     }
   }
 }
