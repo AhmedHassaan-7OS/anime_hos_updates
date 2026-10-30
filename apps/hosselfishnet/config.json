@@ -1,15 +1,15 @@
 {
   "app_id": "hosselfishnet",
   "display_name": "hosselfishnet",
-  "latest_version": "1.0.0",
+  "latest_version": "1.0.1",
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تطبيق hosselfishnet تحت أعمال الصيانة والتحديث الدوري.",
   "announcement": {
     "active": false,
-    "id": "ann-v1-0-0",
+    "id": "ann-v1-0-1",
     "title": "إشعار رسمي",
-    "message": "مرحباً بكم في تطبيق hosselfishnet لإدارة وتوزيع سرعات الشبكة المحلية!",
+    "message": "مرحباً بكم في تحديث hosselfishnet الجديد!",
     "action_url": "",
     "action_label": "حسناً"
   },
@@ -17,11 +17,11 @@
   "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
   "patch": {
     "available": true,
-    "from_version": "0.9.0",
-    "to_version": "1.0.0",
+    "from_version": "1.0.0",
+    "to_version": "1.0.1",
     "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-patch.zip",
     "sha256": "B2CB59E9CA1226D616D46DA1A79C61302D14A6E98BD4D0EE9E3517CE7D066B54",
     "size_bytes": 3357849
   },
-  "release_notes": "إصدار hosselfishnet v1.0.0: تصميم Fluent Design عصري لويندوز 11، محرك رست فائق السرعة، عزل وحصانة تامة لبرنامج ديسكورد والمحادثات الصوتية (Discord Voice Bypass)، صفحة إعدادات متكاملة، وشخصيات تفاعلية متحركة."
+  "release_notes": "إصدار hosselfishnet v1.0.1:\n- إصلاح شفافية النافذة الخلفية بالكامل.\n- حل مشكلة فويس ديسكورد والمحافظة على استقرار الصوت.\n- تحسين اختيار كارت الشبكة الفيزيائي تلقائياً واستبعاد شبكات VPN الوهمية.\n- دعم تنزيل وتثبيت الباتشات التراكمية تلقائياً."
 }
