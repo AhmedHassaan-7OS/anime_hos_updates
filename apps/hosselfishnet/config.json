@@ -1,0 +1,27 @@
+{
+  "app_id": "hosselfishnet",
+  "display_name": "hosselfishnet",
+  "latest_version": "1.0.0",
+  "kill_switch": false,
+  "kill_title": "تنبيه من إدارة التطبيق",
+  "kill_message": "تطبيق hosselfishnet تحت أعمال الصيانة والتحديث الدوري.",
+  "announcement": {
+    "active": false,
+    "id": "ann-v1-0-0",
+    "title": "إشعار رسمي",
+    "message": "مرحباً بكم في تطبيق hosselfishnet لإدارة وتوزيع سرعات الشبكة المحلية!",
+    "action_url": "",
+    "action_label": "حسناً"
+  },
+  "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_setup.exe",
+  "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_portable.zip",
+  "patch": {
+    "available": false,
+    "from_version": "",
+    "to_version": "",
+    "download_url": "",
+    "sha256": "",
+    "size_bytes": 0
+  },
+  "release_notes": "الإصدار الأول من تطبيق hosselfishnet المبني بلغة Flutter + Rust لنظام Windows."
+}

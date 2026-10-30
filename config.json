@@ -1,4 +1,5 @@
 {
+  "_note": "Root fields preserved for backward compatibility with existing Anime HOS clients",
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
@@ -13,5 +14,45 @@
   "latest_version": "2.0.0",
   "force_update": false,
   "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
-  "release_notes": "إصدار Anime HOS v2.0.0: تحسينات شاملة للأداء، مشغل فيديو احترافي متقدم، دعم ملء الشاشة، رافع صوت، ومزامنة سحابية فائقة السرعة."
+  "release_notes": "إصدار Anime HOS v2.0.0: تحسينات شاملة للأداء، مشغل فيديو احترافي متقدم، دعم ملء الشاشة، رافع صوت، ومزامنة سحابية فائقة السرعة.",
+  "apps": {
+    "hos_watcher": {
+      "app_id": "hos_watcher",
+      "display_name": "Hos Watcher (Anime HOS)",
+      "latest_version": "2.0.0",
+      "kill_switch": false,
+      "kill_title": "تنبيه من إدارة التطبيق",
+      "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
+      "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
+      "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Portable.zip",
+      "patch": {
+        "available": false,
+        "from_version": "",
+        "to_version": "",
+        "download_url": "",
+        "sha256": "",
+        "size_bytes": 0
+      },
+      "release_notes": "تحسينات شاملة للأداء وإصلاحات لتطبيق Hos Watcher."
+    },
+    "hosselfishnet": {
+      "app_id": "hosselfishnet",
+      "display_name": "hosselfishnet",
+      "latest_version": "1.0.0",
+      "kill_switch": false,
+      "kill_title": "تنبيه من إدارة التطبيق",
+      "kill_message": "تطبيق hosselfishnet تحت التحديث حالياً.",
+      "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_setup.exe",
+      "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/download/hosselfishnet-v1.0.0/hosselfishnet_portable.zip",
+      "patch": {
+        "available": false,
+        "from_version": "",
+        "to_version": "",
+        "download_url": "",
+        "sha256": "",
+        "size_bytes": 0
+      },
+      "release_notes": "الإصدار الأول من تطبيق hosselfishnet لإدارة وتوزيع سرعات الشبكة المحلية ونظام حظر الأجهزة المتصلة."
+    }
+  }
 }
