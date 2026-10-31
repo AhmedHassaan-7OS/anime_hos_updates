@@ -9,19 +9,19 @@
     "active": false,
     "id": "ann-v2-0-0",
     "title": "إشعار رسمي",
-    "message": "مرحباً بكم في الإصدار الجديد من Hos Watcher!",
+    "message": "مرحباً بكم في الإصدار الجديد من Anime HOS!",
     "action_url": "",
     "action_label": "حسناً"
   },
-  "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
-  "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Portable.zip",
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
+  "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.0.zip",
   "patch": {
     "available": false,
     "from_version": "",
-    "to_version": "",
+    "to_version": "2.0.0",
     "download_url": "",
-    "sha256": "",
-    "size_bytes": 0
+    "sha256": "BEC6B41BAA76DAA839944364F29AADD07A2E747CF29FF6EAF46F5ED16D4019B6",
+    "size_bytes": 4313600
   },
-  "release_notes": "تحسينات شاملة للأداء ومشغل فيديو متقدم."
+  "release_notes": "إصدار Anime HOS v2.0.0:\n- محرك وسائط مبني بلغة Rust فائق السرعة.\n- مشغل فيديو احترافي بـ 14+ ميزة جديدة (ملء الشاشة، رافع صوت حتى 300%، تخطي المقدمة، معادل ألوان).\n- مزامنة سحابية رسمية وسريعة للمفضلة وقوائم المشاهدة.\n- هوية بصرية فاخرة وأداء استثنائي على ويندوز."
 }

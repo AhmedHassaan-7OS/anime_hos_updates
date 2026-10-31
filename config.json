@@ -13,7 +13,7 @@
   },
   "latest_version": "2.0.0",
   "force_update": false,
-  "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
   "release_notes": "إصدار Anime HOS v2.0.0: تحسينات شاملة للأداء، مشغل فيديو احترافي متقدم، دعم ملء الشاشة، رافع صوت، ومزامنة سحابية فائقة السرعة.",
   "apps": {
     "hos_watcher": {
@@ -23,36 +23,36 @@
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
       "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
-      "download_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Setup.exe",
-      "portable_url": "https://github.com/AhmedHassaan-7OS/anime_hos_updates/releases/latest/download/AnimeHOS_Portable.zip",
+      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.0.zip",
       "patch": {
         "available": false,
         "from_version": "",
-        "to_version": "",
+        "to_version": "2.0.0",
         "download_url": "",
-        "sha256": "",
-        "size_bytes": 0
+        "sha256": "BEC6B41BAA76DAA839944364F29AADD07A2E747CF29FF6EAF46F5ED16D4019B6",
+        "size_bytes": 4313600
       },
-      "release_notes": "تحسينات شاملة للأداء وإصلاحات لتطبيق Hos Watcher."
+      "release_notes": "إصدار Anime HOS v2.0.0:\n- محرك وسائط مبني بلغة Rust فائق السرعة.\n- مشغل فيديو احترافي بـ 14+ ميزة جديدة (ملء الشاشة، رافع صوت حتى 300%، تخطي المقدمة، معادل ألوان).\n- مزامنة سحابية رسمية وسريعة للمفضلة وقوائم المشاهدة.\n- هوية بصرية فاخرة وأداء استثنائي على ويندوز."
     },
     "hosselfishnet": {
       "app_id": "hosselfishnet",
       "display_name": "hosselfishnet",
-      "latest_version": "1.0.2",
+      "latest_version": "1.0.4",
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
-      "kill_message": "تطبيق hosselfishnet تحت التحديث حالياً.",
-      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-portable.zip",
-      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-portable.zip",
+      "kill_message": "تطبيق hosselfishnet تحت أعمال الصيانة والتحديث الدوري.",
+      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-portable.zip",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-portable.zip",
       "patch": {
         "available": true,
-        "from_version": "1.0.1",
-        "to_version": "1.0.2",
-        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-patch.zip",
-        "sha256": "3E596824884F86D5A9308FBAC9207806E23C8F27E2E387E63BF1D4749FC4FB54",
-        "size_bytes": 3416700
+        "from_version": "",
+        "to_version": "1.0.4",
+        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-patch.zip",
+        "sha256": "EFDB42DAF6C780907C92AD3669A310FA9F22990F2DEAF2188C3A276EDDC82B33",
+        "size_bytes": 3417442
       },
-      "release_notes": "إصدار hosselfishnet v1.0.2 (إصلاح كوارث الشبكة): محرك معاد على نمط النسخة الأصلية، حماية من جداول ARP المسمومة، توجيه DHCP/mDNS للأجهزة المقيدة، واستعادة قوية عند الإيقاف. كما أُصلح نظام التحديث كي لا يعرض تحديثاً جديداً كل مرة."
+      "release_notes": "إصدار hosselfishnet v1.0.4 (إصلاح نهائي لتقييد الشبكة):\n- محرك التقييد يتحول لخصم رموز Token Bucket: مرور سلس للحزم الصغيرة للصوت (ديسكورد/واتساب) تحت أي سقف، بدون انقطاع كامل.\n- تعديل الهيكل Following النسخة الأصلية SelfishNet: عدّاد منفصل لكل اتجاه مع إعادة تصفير دورية، ومنع الثقب الأسود المستمر بعد تجاوز الحد.\n- حزم إصلاح ARP ذاتية (Self-Heal) كل دورة لتثبيت ذاكرة الراوتر الحقيقية على جهازك (نمط CArp الأصلي).\n- عدّادات تشخيصية للحزم المُسقطة لكل جهاز.\n- تحسينات شاملة في استقرار التحديث التلقائي."
     }
   }
 }
