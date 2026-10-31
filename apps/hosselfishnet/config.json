@@ -1,27 +1,27 @@
 {
   "app_id": "hosselfishnet",
   "display_name": "hosselfishnet",
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.4",
   "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تطبيق hosselfishnet تحت أعمال الصيانة والتحديث الدوري.",
   "announcement": {
     "active": false,
-    "id": "ann-v1-0-1",
+    "id": "ann-v1-0-3",
     "title": "إشعار رسمي",
     "message": "مرحباً بكم في تحديث hosselfishnet الجديد!",
     "action_url": "",
     "action_label": "حسناً"
   },
-  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
-  "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
+  "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-portable.zip",
+  "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-portable.zip",
   "patch": {
     "available": true,
-    "from_version": "1.0.0",
-    "to_version": "1.0.1",
-    "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-patch.zip",
-    "sha256": "DBB57FAE6204A5C049DB909789494E8B684A938B63FC6873EB6C431250FBAD87",
-    "size_bytes": 3404306
+    "from_version": "",
+    "to_version": "1.0.4",
+    "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.4-patch.zip",
+    "sha256": "EFDB42DAF6C780907C92AD3669A310FA9F22990F2DEAF2188C3A276EDDC82B33",
+    "size_bytes": 3417442
   },
-  "release_notes": "إصدار hosselfishnet v1.0.1:\n- إصلاح شفافية النافذة الخلفية بالكامل.\n- حل مشكلة فويس ديسكورد والمحافظة على استقرار الصوت.\n- تحسين اختيار كارت الشبكة الفيزيائي تلقائياً واستبعاد شبكات VPN الوهمية.\n- دعم تنزيل وتثبيت الباتشات التراكمية تلقائياً."
+  "release_notes": "إصدار hosselfishnet v1.0.4 (إصلاح نهائي لتقييد الشبكة):\n- محرك التقييد يتحول لخصم رموز Token Bucket: مرور سلس للحزم الصغيرة للصوت (ديسكورد/واتساب) تحت أي سقف، بدون انقطاع كامل.\n- تعديل الهيكل Following النسخة الأصلية SelfishNet: عدّاد منفصل لكل اتجاه مع إعادة تصفير دورية، ومنع الثقب الأسود المستمر بعد تجاوز الحد.\n- حزم إصلاح ARP ذاتية (Self-Heal) كل دورة لتثبيت ذاكرة الراوتر الحقيقية على جهازك (نمط CArp الأصلي).\n- عدّادات تشخيصية للحزم المُسقطة لكل جهاز (لرقم التصحيح لاحقًا لو لزم الأمر).\n- تحسينات v1.0.3 شاملة: إصلاح عرض النسخة في الواجهة، وإصلاحات الشبكة الكبرى v1.0.2."
 }

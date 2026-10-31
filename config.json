@@ -38,21 +38,21 @@
     "hosselfishnet": {
       "app_id": "hosselfishnet",
       "display_name": "hosselfishnet",
-      "latest_version": "1.0.1",
+      "latest_version": "1.0.2",
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
       "kill_message": "تطبيق hosselfishnet تحت التحديث حالياً.",
-      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
-      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-portable.zip",
+      "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-portable.zip",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-portable.zip",
       "patch": {
         "available": true,
-        "from_version": "1.0.0",
-        "to_version": "1.0.1",
-        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.0-patch.zip",
-        "sha256": "DBB57FAE6204A5C049DB909789494E8B684A938B63FC6873EB6C431250FBAD87",
-        "size_bytes": 3404306
+        "from_version": "1.0.1",
+        "to_version": "1.0.2",
+        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/anime_hos_updates/main/apps/hosselfishnet/releases/hosselfishnet-v1.0.2-patch.zip",
+        "sha256": "3E596824884F86D5A9308FBAC9207806E23C8F27E2E387E63BF1D4749FC4FB54",
+        "size_bytes": 3416700
       },
-      "release_notes": "إصدار hosselfishnet v1.0.1:\n- إصلاح شفافية النافذة الخلفية بالكامل.\n- حل مشكلة فويس ديسكورد والمحافظة على استقرار الصوت.\n- تحسين اختيار كارت الشبكة الفيزيائي تلقائياً واستبعاد شبكات VPN الوهمية.\n- دعم تنزيل وتثبيت الباتشات التراكمية تلقائياً."
+      "release_notes": "إصدار hosselfishnet v1.0.2 (إصلاح كوارث الشبكة): محرك معاد على نمط النسخة الأصلية، حماية من جداول ARP المسمومة، توجيه DHCP/mDNS للأجهزة المقيدة، واستعادة قوية عند الإيقاف. كما أُصلح نظام التحديث كي لا يعرض تحديثاً جديداً كل مرة."
     }
   }
 }
