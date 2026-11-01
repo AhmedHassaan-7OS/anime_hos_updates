@@ -6,7 +6,7 @@
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
   "announcement": {
-    "active": false,
+    "active": true,
     "id": "ann-v2-0-0",
     "title": "إشعار رسمي",
     "message": "مرحباً بكم في الإصدار الجديد من Anime HOS!",
