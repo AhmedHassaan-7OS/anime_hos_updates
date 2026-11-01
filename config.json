@@ -5,35 +5,35 @@
   "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري. يرجى التواصل مع الدعم الفني لمزيد من التفاصيل.",
   "announcement": {
     "active": false,
-    "id": "ann-v2-0-0",
+    "id": "ann-v2-0-1",
     "title": "إشعار رسمي",
     "message": "مرحباً بكم في الإصدار الجديد من Anime HOS!",
     "action_url": "",
     "action_label": "حسناً"
   },
-  "latest_version": "2.0.0",
+  "latest_version": "2.0.1",
   "force_update": false,
   "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
-  "release_notes": "إصدار Anime HOS v2.0.0: تحسينات شاملة للأداء، مشغل فيديو احترافي متقدم، دعم ملء الشاشة، رافع صوت، ومزامنة سحابية فائقة السرعة.",
+  "release_notes": "إصدار Anime HOS v2.0.1: تحسين استقرار وسرعة الاتصال بسيرفرات البث، تعزيز أداء مشغل الفيديو وتزامن الصوت، وإصلاحات عامة في الأداء.",
   "apps": {
     "hos_watcher": {
       "app_id": "hos_watcher",
       "display_name": "Hos Watcher (Anime HOS)",
-      "latest_version": "2.0.0",
+      "latest_version": "2.0.1",
       "kill_switch": false,
       "kill_title": "تنبيه من إدارة التطبيق",
       "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
       "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS_Setup.exe",
-      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.0.zip",
+      "portable_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-Windows-Portable-v2.0.1.zip",
       "patch": {
-        "available": false,
+        "available": true,
         "from_version": "",
-        "to_version": "2.0.0",
-        "download_url": "",
-        "sha256": "15F2F38F177F6D2C8781BC86A1BF1228D48BA48B7B37D662EA97E063BCF8F979",
-        "size_bytes": 4313600
+        "to_version": "2.0.1",
+        "download_url": "https://raw.githubusercontent.com/AhmedHassaan-7OS/7OS_updates/main/apps/hos_watcher/releases/AnimeHOS-v2.0.1-patch.zip",
+        "sha256": "32E27EF842B846F695D4A4964D6C8C5D67B691735FA1F6D70712C7DE0FE3672F",
+        "size_bytes": 4278257
       },
-      "release_notes": "إصدار Anime HOS v2.0.0:\n- محرك وسائط مبني بلغة Rust فائق السرعة.\n- مشغل فيديو احترافي بـ 14+ ميزة جديدة (ملء الشاشة، رافع صوت حتى 300%، تخطي المقدمة، معادل ألوان).\n- مزامنة سحابية رسمية وسريعة للمفضلة وقوائم المشاهدة.\n- هوية بصرية فاخرة وأداء استثنائي على ويندوز."
+      "release_notes": "إصدار Anime HOS v2.0.1:\n- تحسين استقرار وسرعة الاتصال بسيرفرات البث.\n- تعزيز أداء مشغل الفيديو وتزامن الصوت والصورة.\n- إصلاحات وتحسينات عامة لسلاسة تصفح الحلقات والأنمي."
     },
     "hosselfishnet": {
       "app_id": "hosselfishnet",
