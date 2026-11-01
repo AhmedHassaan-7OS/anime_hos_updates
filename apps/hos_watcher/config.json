@@ -2,11 +2,11 @@
   "app_id": "hos_watcher",
   "display_name": "Hos Watcher (Anime HOS)",
   "latest_version": "2.0.0",
-  "kill_switch": true,
+  "kill_switch": false,
   "kill_title": "تنبيه من إدارة التطبيق",
   "kill_message": "تم إيقاف الخدمة مؤقتاً لأعمال الصيانة والتحديث الدوري.",
   "announcement": {
-    "active": true,
+    "active": false,
     "id": "ann-v2-0-0",
     "title": "إشعار رسمي",
     "message": "مرحباً بكم في الإصدار الجديد من Anime HOS!",
